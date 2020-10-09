@@ -1,0 +1,4 @@
+#Fri Oct 09 13:35:44 JST 2020
+base.0=/Users/kenta/Desktop/unity/ARtracking/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex
