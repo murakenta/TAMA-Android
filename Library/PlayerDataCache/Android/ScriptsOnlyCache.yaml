@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - DrawLine
     - GameSystem
     - GoogleARCore.ARCoreBackgroundRenderer
     - GoogleARCore.ARCoreCameraConfigFilter
@@ -182,12 +183,16 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13822}
     - Class: 114
+      Script: {instanceID: 13876}
+    - Class: 114
       Script: {instanceID: 14006}
     - Class: 114
       Script: {instanceID: 14028}
     - Class: 114
       Script: {instanceID: 14422}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}

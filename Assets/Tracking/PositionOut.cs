@@ -25,8 +25,8 @@ public class PositionOut : MonoBehaviour {
     // Use this for initialization
     void Start () {
         
-        //Time.fixedDeltaTime = InputFieldManager.sampling_rate;
-        Time.fixedDeltaTime = (float)1;
+        Time.fixedDeltaTime = InputFieldManager.sampling_rate;
+        //Time.fixedDeltaTime = (float)1;
         
         //現在時刻を取得
         string year = System.DateTime.Now.Year.ToString();

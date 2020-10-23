@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Tracking/Title.unity
+- path: Assets/Tracking/TrackingApp.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
