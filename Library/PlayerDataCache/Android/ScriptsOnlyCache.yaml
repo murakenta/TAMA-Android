@@ -1107,4 +1107,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Tracking/Title.unity
   - Assets/Tracking/TrackingApp.unity
-  playerPath: /Users/kenta/Desktop/unity/ARtracking/tracking.apk
+  playerPath: /Users/kenta/Desktop/unity/ARtracking/ARtracking.apk

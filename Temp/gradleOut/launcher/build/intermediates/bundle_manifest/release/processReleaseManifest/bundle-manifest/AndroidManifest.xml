@@ -78,7 +78,7 @@
             android:value="True" />
         <meta-data
             android:name="unity.build-id"
-            android:value="b01ee1a2-5eb5-4391-afb9-66ad829ca87a" />
+            android:value="f553df0a-ec6e-4372-b659-aba0487029ff" />
 
         <activity
             android:name="com.unity3d.services.ads.adunit.AdUnitActivity"

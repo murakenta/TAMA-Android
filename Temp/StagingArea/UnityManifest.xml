@@ -14,7 +14,7 @@
     <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="true" />
     <meta-data android:name="unity.splash-mode" android:value="0" />
     <meta-data android:name="unity.splash-enable" android:value="True" />
-    <meta-data android:name="unity.build-id" android:value="b01ee1a2-5eb5-4391-afb9-66ad829ca87a" />
+    <meta-data android:name="unity.build-id" android:value="f553df0a-ec6e-4372-b659-aba0487029ff" />
   </application>
   <uses-feature android:glEsVersion="0x00020000" />
   <uses-permission android:name="android.permission.CAMERA" />
