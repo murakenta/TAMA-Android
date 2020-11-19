@@ -39,7 +39,7 @@ public class PositionOut : MonoBehaviour {
         //現在時刻からファイル名を決定
         string filename = time + ".csv";
 
-        string[] s1 = {"time", "x", "y", "z", "rssi" };
+        string[] s1 = {"time", "x", "y", "z"};
         string s2 = string.Join(",", s1);
         combinedPath = Path.Combine(Application.persistentDataPath, filename);
         using (sw = new StreamWriter(combinedPath, false))
