@@ -11,4 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Tracking/TrackingApp.unity
     guid: 38992297e8ed74bc5ae8fbca65325fd3
-  m_configObjects: {}
+  m_configObjects:
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 779bbd4527f1c4235992c18397d14220,
+      type: 2}
