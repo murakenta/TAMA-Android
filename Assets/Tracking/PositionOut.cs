@@ -13,7 +13,8 @@ public class PositionOut : MonoBehaviour {
     //知りたい座標のGaeObjectの設定
     public Camera FirstPersonCamera;
     public StreamWriter sw;
-    public string combinedPath;
+    public static string combinedPath;
+    public static string filename;
 
     //現在時刻を格納
     string Hour;
@@ -37,7 +38,7 @@ public class PositionOut : MonoBehaviour {
         string time = year + month + day + "_" + Hour + Minute;
 
         //現在時刻からファイル名を決定
-        string filename = time + ".csv";
+        filename = time + ".csv";
 
         string[] s1 = {"time", "x", "y", "z"};
         string s2 = string.Join(",", s1);

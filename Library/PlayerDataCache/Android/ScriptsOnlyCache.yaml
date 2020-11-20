@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - APIconnection
     - DrawLine
     - GameSystem
     - GoogleARCore.ARCoreBackgroundRenderer
@@ -192,6 +193,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14166}
     - Class: 114
       Script: {instanceID: 14578}
+    - Class: 114
+      Script: {instanceID: 22274}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -921,7 +924,7 @@ ScriptsOnlyBuild:
     className: DetectedPlaneVisualizer
   - hash:
       serializedVersion: 2
-      Hash: 24ad0260a8b940b771ad2c067d0f905e
+      Hash: ba4c9e1bd7f3ecd29523ff9b954fe4a3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PositionOut
@@ -1105,6 +1108,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ee20d80db0e71b45fa52fb7b04c4606c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: APIconnection
   platform: 13
   scenePathNames:
   - Assets/Tracking/Title.unity
