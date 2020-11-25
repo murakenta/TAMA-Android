@@ -13,4 +13,6 @@ public class GameSystem : MonoBehaviour {
 	public void EndGame() {
 		SceneManager.LoadScene ("Title");
 	}
+
+
 }
