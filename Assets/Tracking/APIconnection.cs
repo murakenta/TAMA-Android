@@ -28,8 +28,7 @@ public class APIconnection : MonoBehaviour
     IEnumerator Start () {
         
         // csvファイル名
-        var filePath = PositionOut.combinedPath;
-        var fileName = PositionOut.filename;
+        var filePath = Path.Combine(FilePath.folderpath, ChangeFile.file);
 
         // csvファイルをJson形式に変換
         Dataset dataset = new Dataset ();

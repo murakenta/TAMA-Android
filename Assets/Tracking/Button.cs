@@ -13,4 +13,9 @@ public class Button : MonoBehaviour {
 	public void EndGame() {
 		SceneManager.LoadScene ("Title");
 	}
+
+	//　ゲーム終了ボタンを押したら実行する
+	public void SendData() {
+		SceneManager.LoadScene ("SendData");
+	}
 }

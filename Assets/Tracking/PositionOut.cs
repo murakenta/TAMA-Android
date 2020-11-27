@@ -13,6 +13,7 @@ public class PositionOut : MonoBehaviour {
     //知りたい座標のGaeObjectの設定
     public Camera FirstPersonCamera;
     public StreamWriter sw;
+
     public static string combinedPath;
     public static string filename;
 
@@ -31,10 +32,10 @@ public class PositionOut : MonoBehaviour {
         
         //現在時刻を取得
         string year = System.DateTime.Now.Year.ToString();
-        string month = System.DateTime.Now.Month.ToString();
-        string day = System.DateTime.Now.Day.ToString();
-        Hour = System.DateTime.Now.Hour.ToString();
-        Minute = System.DateTime.Now.Minute.ToString();
+        string month = zero_padd(System.DateTime.Now.Month.ToString());
+        string day = zero_padd(System.DateTime.Now.Day.ToString());
+        Hour = zero_padd(System.DateTime.Now.Hour.ToString());
+        Minute = zero_padd(System.DateTime.Now.Minute.ToString());
         string time = year + month + day + "_" + Hour + Minute;
 
         //現在時刻からファイル名を決定
@@ -42,8 +43,8 @@ public class PositionOut : MonoBehaviour {
 
         string[] s1 = {"time", "x", "y", "z"};
         string s2 = string.Join(",", s1);
-        combinedPath = Path.Combine(Application.persistentDataPath, filename);
-        using (sw = new StreamWriter(combinedPath, false))
+        combinedPath = Path.Combine(FilePath.folderpath, filename);
+        using (sw = new StreamWriter(combinedPath, false, Encoding.GetEncoding("utf-8")))
         {
             sw.WriteLine(s2);
         }
@@ -79,5 +80,12 @@ public class PositionOut : MonoBehaviour {
         {
             sw.WriteLine(str2);
         }
+    }
+
+    public static string zero_padd(string num){
+        if (num.Length == 1){
+            num = "0" + num;
+        }
+        return num;
     }
 }

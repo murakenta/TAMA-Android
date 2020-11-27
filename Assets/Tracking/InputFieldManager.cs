@@ -24,7 +24,7 @@ public class InputFieldManager : MonoBehaviour
         //InputFieldからテキスト情報を取得する
         sampling_rate = float.Parse(inputField.text);
  
-        //入力フォームのテキストを空にする
+        //テキストにサンプリングレートを表示
         inputField.text = sampling_rate.ToString();
     }
 }
